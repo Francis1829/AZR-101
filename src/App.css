@@ -20,18 +20,19 @@
   /* .shaxxcz{
     text-shadow: 5px 3px 20px #000;
   } */
-
-  .bg1{
-    background-image: url(./assets/book1.jpg);
-  }
-
   .scroll{
     background-color: #0b0b0b;
     transition: .4s all ease-in-out;
   }
 
+  .scroll nav{
+    background-color: transparent;
+    color: #fff;
+    transition: all .5s ease-in-out;
+  }
+
+
   .blurx{
-    background-color:#00000032;
     backdrop-filter: blur(10px);
   }
 
@@ -79,3 +80,7 @@
     transition: all .5s ease-in-out;
   }
 
+
+  .fade{
+    background-image: linear-gradient(rgba(19, 23, 28, 0) 60%, rgba(19, 23, 28, 0.733) 80%, rgba(19, 23, 28, 0.79) 90%);
+  }

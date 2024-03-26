@@ -6,6 +6,9 @@ import Hero from './Components/Hero';
 import Services from './Components/Services';
 import Pricing from './Components/Pricing'
 import About from './Components/About'
+import MoreService from './Components/MoreService';
+import Footer from './Components/Footer';
+import Banner from './Components/Banner';
 
 function App() {
 
@@ -17,6 +20,8 @@ function App() {
      <Services/> 
      <Pricing/>
      <About/>
+     <Banner />
+     <Footer />
      </BrowserRouter>
     </>
   )
